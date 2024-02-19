@@ -1,0 +1,122 @@
+/* ! Reset */
+body,
+html {
+  font-family: "Intro", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: url(https://www.shutterstock.com/shutterstock/photos/2291058675/display_1500/stock-vector-architecture-portfolio-or-construction-portfolio-or-project-portfolio-2291058675.jpg)
+    no-repeat center center;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+img {
+  height: auto;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.8rem;
+}
+h6 {
+  font-size: 0.6rem;
+}
+a {
+  text-decoration: none;
+}
+
+/************* CONTAINER **********/
+.container{
+    background-color: #2b2b2be2;
+    backdrop-filter: blur(15px);
+}
+
+/****** Sidebar *******/
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #ffffffca;
+}
+
+/* Logo */
+.sidebar-logo {
+  width: 60px;
+  height: 60px;
+  transition: 0.5s;
+}
+
+.sidebar-logo:hover{
+    transform: scale(1.5);
+}
+
+
+/* Nav Sidebar */
+.sidebar-nav li{
+    padding: 5px;
+}
+
+.sidebar-nav a {
+  color: #2b2b2b;
+  transition: 0.3s;
+}
+
+.sidebar-nav a:hover {
+  color: #2b2bb2;
+  transition: 0.3s;
+}
+
+/* Avatar Profile */
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-avatar{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.container-avatar:hover{
+    transform: scale(1.2);
+}
+
+.container-avatar img{
+    width: 100%;
+}
