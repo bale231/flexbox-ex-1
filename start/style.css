@@ -100,10 +100,10 @@ a {
 /* Avatar Profile */
 .user-profile{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 10px;
+    height: 78%;
 }
 
 .container-avatar{
